@@ -30,7 +30,10 @@ A smart, Python-based queue management system for institutional canteens. It eff
 
 ---
 
-canteen-order-system/
+📁 File Structure (Copyable Tree)
+
+<details>
+<summary><strong>Click to view</strong></summary>canteen-order-system/
 ├── backend/
 │   ├── main.py                  # Main app (FastAPI or Flask)
 │   ├── routes/
@@ -77,7 +80,9 @@ canteen-order-system/
 ├── requirements.txt
 └── LICENSE
 
+</details>
 ---
+
 
 ## 🛠️ Setup Instructions
 
