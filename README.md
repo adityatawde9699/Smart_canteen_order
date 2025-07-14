@@ -30,7 +30,7 @@ A smart, Python-based queue management system for institutional canteens. It eff
 
 ---
 
-📁 File Structure (Copyable Tree)
+📁 File Structure 
 
 <details>
 <summary><strong>Click to view</strong></summary>canteen-order-system/
@@ -81,7 +81,7 @@ A smart, Python-based queue management system for institutional canteens. It eff
 └── LICENSE
 
 </details>
----
+
 
 
 ## 🛠️ Setup Instructions
