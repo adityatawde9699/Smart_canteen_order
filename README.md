@@ -32,7 +32,14 @@ A smart, Python-based queue management system for institutional canteens. It eff
 
 ## 📁 Folder Structure
 
-canteen-order-system/ ├── backend/           # API logic (FastAPI or Flask) ├── frontend/          # UI (React or HTML/CSS) ├── data/              # DB files or JSON storage ├── assets/            # QR codes, logos, etc. ├── utils/             # Helper modules ├── .gitignore ├── README.md └── requirements.txt
+canteen-order-system/
+├── backend/        # FastAPI / Flask API logic
+├── frontend/       # React or HTML/CSS UI
+├── data/           # Order data or SQLite DB
+├── assets/         # QR codes, images, etc.
+├── utils/          # Helper functions
+├── README.md
+└── requirements.txt
 
 ---
 
