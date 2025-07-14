@@ -30,8 +30,6 @@ A smart, Python-based queue management system for institutional canteens. It eff
 
 ---
 
-## 📁 Folder Structure
-
 canteen-order-system/
 ├── backend/
 │   ├── main.py                  # Main app (FastAPI or Flask)
