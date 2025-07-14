@@ -98,7 +98,7 @@ Please open an issue or submit a PR for improvements.
 👤 Author
 
 Aditya Tawde
-📧 adityatawde.ai@gmail.com
+📧 adityatawde9699@gmail.com
 🔗 LinkedIn
 
 
