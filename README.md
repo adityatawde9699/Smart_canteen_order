@@ -33,13 +33,51 @@ A smart, Python-based queue management system for institutional canteens. It eff
 ## 📁 Folder Structure
 
 canteen-order-system/
-├── backend/        # FastAPI / Flask API logic
-├── frontend/       # React or HTML/CSS UI
-├── data/           # Order data or SQLite DB
-├── assets/         # QR codes, images, etc.
-├── utils/          # Helper functions
+├── backend/
+│   ├── main.py                  # Main app (FastAPI or Flask)
+│   ├── routes/
+│   │   ├── orders.py            # Order APIs
+│   │   ├── users.py             # User-related APIs
+│   │   └── menu.py              # Menu management APIs
+│   ├── models/
+│   │   ├── order_model.py       # Pydantic / DB models
+│   │   ├── user_model.py
+│   │   └── menu_model.py
+│   ├── database/
+│   │   ├── connection.py        # SQLite/PostgreSQL setup
+│   │   └── seed.py              # Initial data (optional)
+│   ├── utils/
+│   │   ├── queue_engine.py      # Queue/PriorityQueue logic (Gamma)
+│   │   ├── qr_generator.py      # QR code generation
+│   │   └── notify.py            # Email/SMS utils
+│   └── config.py                # Configurations
+│
+├── frontend/
+│   ├── public/
+│   │   └── index.html           # Base HTML
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── QueueView.jsx
+│   │   │   ├── OrderForm.jsx
+│   │   │   └── AdminPanel.jsx
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   └── Dashboard.jsx
+│   │   └── App.jsx
+│   ├── package.json
+│   └── tailwind.config.js      # Or bootstrap CSS setup
+│
+├── data/
+│   ├── orders.json              # JSON fallback storage (for MVP)
+│   └── menu.json
+│
+├── assets/
+│   └── qrcodes/                 # Generated QR codes
+│
+├── .gitignore
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
 
 ---
 
