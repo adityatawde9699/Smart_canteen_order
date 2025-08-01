@@ -22,7 +22,7 @@ A smart, Python-based queue management system for institutional canteens. It eff
 | Layer       | Technology                        |
 |-------------|------------------------------------|
 | Language    | Python                             |
-| Backend     | FastAPI / Flask                    |
+| Backend     | Django.                            |
 | Frontend    | React.js / HTML + CSS              |
 | Database    | JSON / SQLite / PostgreSQL         |
 | Realtime    | Socket.IO / WebSockets             |
